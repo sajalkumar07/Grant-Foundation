@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.tophead{
+    width: 100%;
+    height: 3em;
+    background:rgb(68, 161, 164);
+    color: #fff;
+}
+.tophead p{
+    display: inline-block;
+    padding: .8em 0 10em 20em;
+}
+/*Nav Section*/
+nav{
+    display: flex;
+    padding: 1% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 1em 1em;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgba(67, 59, 59, 0.682);
+   
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.navbtn{
+    text-decoration: none;
+    margin-left: 13em;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 12px;
+    background-color: rgb(68, 161, 164);
+    color: #fff;
+    font-size: 1em;
+    border-radius: .2em;
+}
+
+/*Head Section*/
+.main{
+    width: 100%;
+    height: 40em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.488),rgba(3, 0, 0, 0.762)),url(photos/kids2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    color: rgb(237, 226, 226);
+    width: 90%;    
+    top: 35%;
+    left: 10%;
+    position: absolute;
+   
+}
+.title h1{
+    font-size: 4rem;
+}
+.title p{
+    font-size: 1em;
+    margin-top: 1.5rem;
+}
+.pushbtn{
+    margin-top: 3em; 
+    margin-right: 1.5em;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .3em;
+    color: #fff;    
+    transition: .2s ease-in-out;
+}
+.pushbtn:hover{
+    background-color: rgba(128, 128, 128, 0.232);
+}
+/*Blog Card Section*/
+.title1{
+    text-align: center;
+    margin:auto;
+    width: 40%;
+    align-items: center;
+}
+.title1 h2{
+    margin-top: 2.5em;
+    border-bottom: 1px solid black;
+    font-size: 2em;
+}
+.color{
+    color: rgb(68, 161, 164);
+}
+.title1 p{
+    margin-top: 1.5em;
+}
