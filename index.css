@@ -7,7 +7,7 @@
 .tophead{
     width: 100%;
     height: 3em;
-    background:rgb(68, 161, 164);
+    background:rgb(38, 131, 115);
     color: #fff;
 }
 .tophead p{
@@ -29,11 +29,12 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: rgba(67, 59, 59, 0.682);
+    color: rgba(67, 59, 59, 0.771);
    
 }
 ul li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(57, 174, 178);
+    border-bottom: 2px solid rgb(68, 161, 164);
 }
 .navbtn{
     text-decoration: none;
@@ -86,7 +87,10 @@ ul li a:hover{
 .pushbtn:hover{
     background-color: rgba(128, 128, 128, 0.232);
 }
-/*Blog Card Section*/
+
+/*Blog Section Started*/
+
+/*blog title*/
 .title1{
     text-align: center;
     margin:auto;
@@ -104,6 +108,9 @@ ul li a:hover{
 .title1 p{
     margin-top: 1.5em;
 }
+
+/*Blog Cards*/
+
 .container{
     margin-top: 5em;
     padding-left: 5em;
@@ -124,11 +131,28 @@ ul li a:hover{
     font-family: "Lato",sans-serif;
     font-size: 14px;
     font-weight: bold;
-    left: 0;
+    left: 1px;
     line-height: 5em;
     position: absolute;
     text-align: center;
     top: 0;
     width: 5em;
     text-decoration: none;
+}
+.info{
+    padding: 11px 15px 31px;
+}
+.info .name{
+    width: 50%;
+    float: left;
+}
+.info .name a{
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+}
+.infocard{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
