@@ -104,33 +104,31 @@ ul li a:hover{
 .title1 p{
     margin-top: 1.5em;
 }
-.section{
-    max-width: 100%;
-}
 .container{
-    position: relative;
     margin-top: 5em;
     padding-left: 5em;
-    box-sizing: border-box;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
 }
-.image{
-    padding-bottom: 15px;
-    overflow: hidden;
+.blogimg{
+    position: relative;
+
 }
-.image img{
+.blogimg img{
     border: 1px solid #f2f2f2;
 }
-.image a{
-    background-color: rgb(68, 161, 164);
+.blogimg a{
+    background: #0aaac0;
     color: #fff;
+    font-family: "Lato",sans-serif;
     font-size: 14px;
     font-weight: bold;
-    left: 5.7em;
+    left: 0;
     line-height: 5em;
     position: absolute;
     text-align: center;
     top: 0;
-    width: 75px;
+    width: 5em;
     text-decoration: none;
-    font-family: "Lato",sans-serif;
 }
