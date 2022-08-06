@@ -104,3 +104,36 @@ ul li a:hover{
 .title1 p{
     margin-top: 1.5em;
 }
+.section{
+    width: 50%;
+}
+.container{
+    width: 100%;
+    padding:10em;
+    margin: auto;
+}
+
+.image{
+    position: relative;
+    display: flex;
+    
+}
+.image img{
+    width: 20%;
+    height: auto;
+}
+.image a{
+    background-color: rgb(68, 161, 164);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    left: 0;
+    line-height: 5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 75px;
+    text-decoration: none;
+    font-family: "Lato",sans-serif;
+
+}
