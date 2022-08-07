@@ -7,12 +7,35 @@
 .tophead{
     width: 100%;
     height: 3em;
-    background:rgb(38, 131, 115);
+    background: #0aaaa0;
     color: #fff;
 }
-.tophead p{
-    display: inline-block;
-    padding: .8em 0 10em 20em;
+.social{
+    width: 40%;
+}
+.social ul{
+    display: flex;
+    padding-left: 15em;
+    width: 100%;
+}
+
+.social ul li a i{
+    color: rgb(255, 255, 255);
+    font-size: .7em;
+}
+
+.contact-info{
+    display: flex;
+    margin-top: -35px;
+    padding-left: 50em;
+}
+
+.contact-info ul li a i{
+    color: #fff;
+    font-size: .7em;
+}
+.cont-text{
+    font-size: .9em;
 }
 /*Nav Section*/
 nav{
@@ -32,16 +55,16 @@ ul li a{
     color: rgba(67, 59, 59, 0.771);
    
 }
-ul li a:hover{
+.name li a:hover{
     color: rgb(57, 174, 178);
-    border-bottom: 2px solid rgb(68, 161, 164);
+    border-bottom: 2px solid rgb(51, 184, 189);
 }
 .navbtn{
     text-decoration: none;
     margin-left: 13em;
     border: 1px solid rgb(255, 255, 255);
     padding: 8px 12px;
-    background-color: rgb(68, 161, 164);
+    background-color: #0aaaa0;
     color: #fff;
     font-size: 1em;
     border-radius: .2em;
@@ -85,7 +108,8 @@ ul li a:hover{
     transition: .2s ease-in-out;
 }
 .pushbtn:hover{
-    background-color: rgba(128, 128, 128, 0.232);
+    background-color: #0aaaa0;
+
 }
 
 /*Blog Section Started*/
@@ -99,15 +123,16 @@ ul li a:hover{
 }
 .title1 h2{
     margin-top: 2.5em;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
     font-size: 2em;
 }
 .color{
-    color: rgb(68, 161, 164);
+    color: #0aaaa0;
 }
 .title1 p{
     margin-top: 1.5em;
 }
+
 
 /*Blog Cards*/
 
