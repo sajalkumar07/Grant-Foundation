@@ -136,7 +136,7 @@ ul li a{
 
 /*Blog Cards*/
 
-.container{
+/*.container{
     margin-top: 5em;
     padding-left: 5em;
     width: 90%;
@@ -149,6 +149,7 @@ ul li a{
 }
 .blogimg img{
     border: 1px solid #f2f2f2;
+    width: 20em;
 }
 .blogimg a{
     background: #0aaac0;
@@ -160,12 +161,12 @@ ul li a{
     line-height: 5em;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 1px;
     width: 5em;
     text-decoration: none;
 }
 .info{
-    padding: 11px 15px 31px;
+   padding: 11px 15px 31px;
 }
 .info .name{
     width: 50%;
@@ -175,9 +176,4 @@ ul li a{
     font-size: 14px;
     color: #888;
     text-decoration: none;
-}
-.infocard{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
+}*/
