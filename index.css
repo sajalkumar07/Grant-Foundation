@@ -61,7 +61,6 @@ ul li a{
 }
 
 
-
 .navbtn{
     text-decoration: none;
     margin-left: 13em;
@@ -71,6 +70,9 @@ ul li a{
     color: white;
     font-size: 1em;
     border-radius: 2px;
+}
+.navbtn:hover{
+    color: black;
 }
 
 /*Head Section*/
@@ -111,7 +113,7 @@ ul li a{
     transition: .2s ease-in-out;
 }
 .pushbtn:hover{
-    background-color: #0aaaa0;
+    background-color: #000000;
 
 }
 
@@ -194,9 +196,7 @@ ul li a{
 .name a i{
     margin-right: 4px;
 }
-.name a i .fa{
-    display: inline-block;
-}
+
 .like-comment{
     float: right;
     text-align: right;
@@ -209,17 +209,22 @@ ul li a{
     text-decoration: none;
 }
 
-/*.blogimg a{
-    background: #0aaac0;
-    color: #fff;
-    font-family: "Lato",sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    left: 1px;
-    line-height: 5em;
-    position: absolute;
-    text-align: center;
-    top: 1px;
-    width: 5em;
+.text{
+    padding: 15px;
+}
+.text h3{
+    color: #000000;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.readmore{
+    float: right;
+    color: #000000;
     text-decoration: none;
-}*/
+    border-bottom: 1px solid #000000;
+    font-weight: 200;
+    line-height: 2em;
+}
+.readmore:hover{
+    color: #0aaaa0;
+}
