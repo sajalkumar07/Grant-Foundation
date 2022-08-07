@@ -128,7 +128,7 @@ ul li a{
 }
 .title1 h2{
     margin-top: 2.5em;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 .color{
     color: #0aaaa0;
@@ -146,6 +146,7 @@ ul li a{
     margin: 10em;
     padding-left: 1em;
     margin-top: 4em;
+    margin-bottom: 10px;
 }
 .blog-col{
     position: relative;
@@ -227,4 +228,8 @@ ul li a{
 }
 .readmore:hover{
     color: #0aaaa0;
+}
+.sponser{
+    padding-left: 8.6em;
+    padding-top: 2em;
 }
