@@ -256,8 +256,13 @@ ul li a{
     font-weight: bold;
     margin-bottom: 45px;
 }
-
-
+.border-bottom{
+    background-color: #0aaaa0;
+    color: transparent; 
+    width:2em;
+    height: 2px;
+    margin-top: 5px;
+}
 .footer-contact h3{
     color: #fff;
     font-size: 18px;
@@ -274,35 +279,54 @@ ul li a{
 .footer-contact a:hover{
     color: #0aaaa0;
 }
-.footer-project{
+
+/*********This CSS is used for project and quick link column**********/
+.footer-project-quicklinks{
     padding-left: 2em;
     padding-right: 4em;
 }
-.project-title h3{
+.project-quiclinks-title h3{
     color: #fff;
 }
-.project-links a{
+.border-bottom{
+    background-color: #0aaaa0;
+    color: transparent; 
+    width:2em;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.project-quicklinks-links a{
     color: #fff;
     text-decoration: none;
     font-size: 14px;
     line-height: 2.6em;
     display: block;
 }
-.project-links a:hover{
+.project-quicklinks-links a:hover{
     color: #06ffde;
 }
-.project-links{
+.project-quicklinks-links{
     margin-top: 2.5em;
 
 }
 .fa-angle-right{
     padding-right: 10px;
 }
+
+/**********News Letter Section started *********/
 .footer-newsletter{
     width: 32%;
 }
 .newsletter-title{
     padding-bottom: 3em;
+}
+.border-bottom{
+    background-color: #0aaaa0;
+    color: transparent; 
+    width:2em;
+    height: 2px;
+    margin-top: 5px;
 }
 .form-footer{
     padding-top:3em;
@@ -323,6 +347,8 @@ ul li a{
     margin-left: -.5em;
     cursor: pointer; 
 }
+
+/**********bottom end********/
 .bottom-end{
     background-color: #000000e6;
     color: #fff;
