@@ -372,6 +372,12 @@ ul li a{
 .bottom-icons a{
     color: #fff;
 }
+.bottom-icons .fa{
+    font-size: .8em;
+}
+.bottom-end-text i{
+    color: #ff0000;
+}
 .bold{
     font-weight: bold;
     cursor: pointer;
