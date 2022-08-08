@@ -141,7 +141,7 @@ ul li a{
 
 /*Blog Cards*/
 
-.blog-row{
+.blog-container{
     display: flex;
     margin: 10em;
     padding-left: 1em;
@@ -149,12 +149,10 @@ ul li a{
     margin-bottom: 10px;
 }
 .blog-col{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 1em;
+    padding-left: 1em;
 }
-.single-blog{
+.blog-card{
 
     border: 1px solid #efefef;
     overflow: hidden;
@@ -165,13 +163,12 @@ ul li a{
     height: auto;
 }
 .blog-image img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .blog-image a{
     background: #0aaac0;
     color: #fff;
-    font-family: "Lato",sans-serif;
     font-size: 14px;
     font-weight: bold;
     left: 0;
@@ -181,9 +178,13 @@ ul li a{
     top: 0;
     width: 5em;
     text-decoration: none;
+    font-family: sans-serif;
 }
-.info{
-    padding: 11px 15px 31px;
+.info{  
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3em;
 }
 .info .name{
     width: 50%;
@@ -255,6 +256,8 @@ ul li a{
     font-weight: bold;
     margin-bottom: 45px;
 }
+
+
 .footer-contact h3{
     color: #fff;
     font-size: 18px;
@@ -267,6 +270,9 @@ ul li a{
     color: #fff ;
     display: block;
     line-height: 2em;
+}
+.footer-contact a:hover{
+    color: #0aaaa0;
 }
 .footer-project{
     padding-left: 2em;
@@ -302,7 +308,18 @@ ul li a{
     padding-top:3em;
 }
 .email-footer input{
-    height: 2em;
-    width: 14em;
-
+    height: 2.2em;
+    width: 14em;        
+}
+.submit-button{
+    display: inline;
+}
+.submit-button button{
+    width: 3em;
+    height: 2.5em;
+    background-color: #0aaaa0;
+    color: #fff;
+    border: none;
+    margin-left: -.5em;
+    cursor: pointer; 
 }
