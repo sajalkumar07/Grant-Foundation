@@ -301,3 +301,7 @@ ul li a{
 .form-footer{
     padding-top:3em;
 }
+.email-footer input{
+    height: 2em;
+    width: 14em;
+}
