@@ -79,7 +79,7 @@ ul li a{
 .main{
     width: 100%;
     height: 40em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.488),rgba(3, 0, 0, 0.762)),url(photos/kids2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.488),rgba(3, 0, 0, 0.762)),url(images/kids2.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
