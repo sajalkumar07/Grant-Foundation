@@ -234,32 +234,70 @@ ul li a{
     padding-top: 2em;
 }
 .footer-row-coloumn{
-    background-color: #000000d2;
+    background-color: #000000dd;
     color: #fff;
-    margin-top: 5em;
+    margin-top: 5em;  
 }
 .footer-area{
-    width: 40%;
-    padding-left: 10em;
+    width: 80%;
+    padding-left: 12em;
     padding-top: 4em;
+
+}
+.footer-container{
     display: flex;
+    padding-bottom: 3em;
 }
-.footer-col-aboutus{
-    width: 100%;
-    padding-left: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.footer-conatnt{
-    position: relative;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .aboutus-title{
-    color: #efefef;
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 45px;
+}
+.footer-contact h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.footer-contact a{
+    text-decoration: none;
+    color: #fff ;
+    display: block;
+    line-height: 2em;
+}
+.footer-project{
+    padding-left: 2em;
+    padding-right: 4em;
+}
+.project-title h3{
+    color: #fff;
+}
+.project-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2.6em;
+    display: block;
+}
+.project-links a:hover{
+    color: #06ffde;
+}
+.project-links{
+    margin-top: 2.5em;
+
+}
+.fa-angle-right{
+    padding-right: 10px;
+}
+.footer-newsletter{
+    width: 30%;
+}
+.newsletter-title{
+    padding-bottom: 3em;
+}
+.form-footer{
+    padding-top:3em;
 }
