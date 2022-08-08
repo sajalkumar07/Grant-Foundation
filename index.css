@@ -299,7 +299,7 @@ ul li a{
     padding-right: 10px;
 }
 .footer-newsletter{
-    width: 30%;
+    width: 32%;
 }
 .newsletter-title{
     padding-bottom: 3em;
@@ -322,4 +322,31 @@ ul li a{
     border: none;
     margin-left: -.5em;
     cursor: pointer; 
+}
+.bottom-end{
+    background-color: #000000e6;
+    color: #fff;
+    display: flex;
+    height: 4em;
+    justify-content: space-between;
+      
+}
+.bottom-end-text{
+    padding-left: 188px;
+    padding-top: 1.5em;
+}
+.bottom-end-text h4{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.bottom-icons{
+    padding-top:1.5em;
+    padding-right: 8em;
+}
+.bottom-icons a{
+    color: #fff;
+}
+.bold{
+    font-weight: bold;
+    cursor: pointer;
 }
