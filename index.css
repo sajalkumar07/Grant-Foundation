@@ -120,20 +120,20 @@ ul li a{
 /*Blog Section Started*/
 
 /*blog title*/
-.title1{
+.Blog-Sponser-title{
     text-align: center;
     margin:auto;
     width: 40%;
     align-items: center;
 }
-.title1 h2{
+.Blog-Sponser-title h2{
     margin-top: 2.5em;
     font-size: 2.5em;
 }
 .color{
     color: #0aaaa0;
 }
-.title1 p{
+.Blog-Sponser-title p{
     margin-top: 1.5em;
 }
 
