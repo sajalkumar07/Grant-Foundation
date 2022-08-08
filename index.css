@@ -84,6 +84,7 @@ ul li a{
     background-position: center;
     position: relative;
 }
+
 .title{
     color: rgb(237, 226, 226);
     width: 90%;    
@@ -119,27 +120,19 @@ ul li a{
 
 /*Blog Section Started*/
 
-/*blog title*/
-.Blog-Sponser-title{
+.Blog-title{
     text-align: center;
     margin:auto;
     width: 40%;
     align-items: center;
 }
-.Blog-Sponser-title h2{
+.Blog-title h2{
     margin-top: 2.5em;
     font-size: 2.5em;
 }
 .color{
     color: #0aaaa0;
 }
-.Blog-Sponser-title p{
-    margin-top: 1.5em;
-}
-
-
-
-/*Blog Cards*/
 
 .blog-container{
     display: flex;
@@ -230,10 +223,29 @@ ul li a{
 .readmore:hover{
     color: #0aaaa0;
 }
-.sponser{
+
+/*sponser section started here*/
+.Sponser-title{
+    text-align: center;
+    margin:auto;
+    width: 40%;
+    align-items: center;
+}
+.Sponser-title h2{
+    margin-top: 2.5em;
+    font-size: 2.5em;
+}
+.color{
+    color: #0aaaa0;
+}
+
+.Sponser{
     padding-left: 8.6em;
     padding-top: 2em;
 }
+
+
+/*footer Section Started*/
 .footer-row-coloumn{
     background-color: #000000dd;
     color: #fff;
