@@ -23,7 +23,24 @@
     color: rgb(255, 255, 255);
     font-size: .7em;
 }
-
+.fa-facebook:hover{
+    color: #2b65e2;
+}
+.fa-twitter:hover{
+    color: #06ffde;
+}
+.fa-google-plus:hover{
+    color: #ff0000c8;
+}
+.fa-youtube:hover{
+    color:rgb(255, 0, 0)
+}
+.fa-instagram:hover{
+    color: #ff00bb;
+}
+.fa-linkedin:hover{
+    color: #00b3ff;
+}
 .contact-info{
     display: flex;
     margin-top: -35px;
@@ -203,7 +220,12 @@ ul li a{
     padding: 0 7.5px;
     text-decoration: none;
 }
-
+.like-comment .fa-heart:hover{
+    color: #ff0000;
+}
+.like-comment .fa-comment:hover{
+    color: #2b65e2;
+}
 .text{
     padding: 15px;
 }
